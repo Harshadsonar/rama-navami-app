@@ -44,12 +44,14 @@ const NavBar = () => {
                   <Tab key={index} label={page} />
                 ))}
               </Tabs>
-              <IconButton>
-                <WhatsAppIcon />
+             <div className="icon-buttons">
+             <IconButton >
+                <WhatsAppIcon sx={{marginLeft:"30px",marginRight:"30px" }}/>
               </IconButton>
               <IconButton>
-                <MailOutlineIcon sx={{ color: "#000" }} />
+                <MailOutlineIcon sx={{ color: "#000", }} />
               </IconButton>
+             </div>
               <Button sx={{ marginLeft: "auto" }} variant="contained">
                 Register Now
               </Button>
