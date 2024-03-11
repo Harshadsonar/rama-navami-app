@@ -1,0 +1,69 @@
+.banner {
+    display: flex;
+    width: 100%;
+    background-image: url('../img/img1.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.center-left {
+    font-weight: 800;
+    color: black;
+    position: absolute;
+    top: 20%;
+    left: 75%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.banner .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.banner h1 {
+    font-size: 75px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.bannerImg {
+    max-width: 30%;
+    height: min-content;
+    animation: updown 3s linear infinite;
+    position: sticky;
+    top: 100px;
+    left: 0px;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.txt-rotate>.wrap {
+    border-right: 0.08em solid #666;
+}
+
+.registration-form-btn {
+    text-align: center;
+    background-color: rgb(254, 226, 66);
+}

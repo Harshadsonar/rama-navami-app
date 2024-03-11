@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    /* Light background color */
+}
+
+.content {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    /* White background color */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* Shadow effect */
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    /* Dark text color */
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #555;
+    /* Medium text color */
+}
+
+p:last-child {
+    margin-bottom: 0;
+    /* Remove bottom margin for the last paragraph */
+}
