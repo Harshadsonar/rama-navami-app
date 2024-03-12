@@ -1,16 +1,7 @@
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f9f9f9;
-    /* Light background color */
-}
-
 .content {
     max-width: 600px;
     padding: 20px;
-    background-color: #fff;
+    background-color: #85FFBD;
     /* White background color */
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -26,7 +17,7 @@
 }
 
 p {
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1.5;
     margin-bottom: 10px;
     color: #555;

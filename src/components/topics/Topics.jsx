@@ -3,9 +3,9 @@ import "./style.css";
 
 export default function Topics() {
   return (
-    <div className="container">
+    <div className="container" style={{height:"70vh"}}>
       <div>
-      <h1 className="title">Topics</h1>
+      <h1 className="title">TOPICS</h1>
       </div>
       <div className="topic-list">
         <h4 className="topic">1. Lessons to learn from Lord Ram’s Ideal leadership and management</h4>

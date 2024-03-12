@@ -1,27 +1,17 @@
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #85FFBD;
-    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-    /* Golden background */
-}
-
 h2 {
     text-align: center;
     color: #007bff;
 }
 
 .sign-up-form {
-    width: 400px;
+    width: 900px;
     padding: 40px;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: #85FFBD;
     /* White background */
     color: #fff;
     /* White text color */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .title {
@@ -37,7 +27,7 @@ h2 {
 .input-field img {
     position: absolute;
     top: 50%;
-    left: 10px;
+    left: 5px;
     transform: translateY(-50%);
 }
 

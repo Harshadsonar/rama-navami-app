@@ -50,9 +50,9 @@ export default function Registration() {
       };
 
   return (
-    <div className="container">
+    <div className="container" style={{height:"120vh"}}>
       <form onSubmit={handleSubmit} action='#' className='sign-up-form'>
-      <h2 className='title'>Registration Form</h2>
+      <h2 className='title'>REGISTRATION FORM</h2>
         <div className='input-field'>
           <img src={img2} alt="name" />
         <input type="text" name='name' value={name} onChange={handleChange} placeholder="Your Full Name" required/>
@@ -68,23 +68,23 @@ export default function Registration() {
         </div>
 
         <div className='input-field'> 
-        <img src={img5} alt="college" />
-        <input type="text" name='college' value={college} onChange={handleChange} placeholder="SIBM, Pune" required /> 
+        <img src={img3} alt="college" />
+        <input type="text" name='college' value={college} onChange={handleChange} placeholder="Organization Name" required /> 
         </div>
 
         <div className='input-field'>
-          <img src={img3} alt="" />
-        <input type="number" name='age' value={age} onChange={handleChange} placeholder="21" required />
+          <img src={img5} alt="" />
+        <input type="number" name='age' value={age} onChange={handleChange} placeholder="Age" required />
         </div>
 
         <div className="input-field">
           <img src={img4} alt="mobileNumber" />
-        <input type="tel"  value={mobileNumber} onChange={handleChange} name='mobileNumber' pattern="[0-9]{10}" placeholder="9999999999" required/>
+        <input type="tel"  value={mobileNumber} onChange={handleChange} name='mobileNumber' pattern="[0-9]{10}" placeholder="Phone Number" required/>
         </div>
 
         <div className="input-field">
           <img src={img7} alt="" />
-        <input type="email" value={email} onChange={handleChange} name='email' placeholder="test123@gmail.com" required />
+        <input type="email" value={email} onChange={handleChange} name='email' placeholder="Email Address" required />
         </div>
 
         <button type="submit" className='btn'>Submit</button>
