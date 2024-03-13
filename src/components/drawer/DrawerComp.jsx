@@ -15,13 +15,13 @@ import { useNavigate } from "react-router-dom";
 const PAGES = ["Topics", "Dates", "Prizes", "Contact US"];
 
 const DrawerComp = () => {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
   const [openDrawer, setOpenDrawer] = useState(false);
 
   const handlePageClick = (page) => {
     setOpenDrawer(false);
     navigate(`/${page.toLowerCase()}`);
-  }
+  };
   return (
     <React.Fragment>
       <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)}>

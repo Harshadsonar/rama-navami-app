@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    background-color: #f8f9fa;
+}
+
+.footer img {
+    max-width: 100px;
+}
+
+.social-icon a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icon img {
+    width: 30px;
+}
+
+p {
+    position: relaative;
+    right: 0%;
+    margin-top: 10px;
+    font-size: 24px;
+}
