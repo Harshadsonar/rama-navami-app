@@ -1,9 +1,8 @@
 import React from 'react';
-import "./style.css";
 
 export default function Prizes() {
   return (
-    <div className="container" >
+    <section className="container" id='prizes' >
       <div className="content">
         <h2 className="title">PRIZES</h2>
         <p><b>1st Prize - Rs2500/- worth Gift Pack</b></p>
@@ -13,6 +12,6 @@ export default function Prizes() {
         <p>&</p><b></b>
         <p>Certificate Signed by <b>Dr. Vijay Bhatkar Sir</b> (PadmaBhushan & Prominent Scientist of India)</p>
       </div>
-    </div>
+    </section>
   );
 }

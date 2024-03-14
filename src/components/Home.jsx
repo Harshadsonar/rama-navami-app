@@ -1,14 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import img1 from "../img/ram-murti-ayodhya-hd-photo3-690x1536.jpeg";
-import img2 from "../img/img1.jpg";
-import "./Home.css";
+import img1 from "../components/assets/img/ram-murti-ayodhya-hd-photo3-690x1536.jpeg";
+import img2 from "../components/assets/img/img1.jpg";
 import 'animate.css';
 import { Link } from "react-router-dom";
-import { motion, useScroll } from "framer-motion"
+import { NavBar } from './NavBar';
 
 export default function Home() {
   const[showImage, setShowImage] = useState(true);
-  const { scrollYProgress } = useScroll()
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -20,13 +18,8 @@ export default function Home() {
     },[]);
   
   return (
-    <div>
-      <motion.path
-      d="M 0, 20 a 20, 20 0 1,0 40,0 a 20, 20 0 1,0 -40,0"
-      style={{ pathLength: scrollYProgress }}
-    />
+    <section id='home'>
       <div className="banner">
-      
         <img className="banner-img2" src={img2} alt="Ram Mandir" />
         <div>
           {showImage &&(
@@ -43,9 +36,8 @@ export default function Home() {
         </div>
       </div>
       <div className='registration-form-btn'>
-      <Link to="registration"><button className="register-button">Register Now</button></Link>
+      <a href="#registration" smooth><button className="register-button">Register Now</button></a>
       </div>
-      
-    </div>
+    </section>
   )
 }

@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
-import img2 from "../img/person.png";
-import img3 from "../img/PhBriefcaseSimpleThin.png"
-import img4 from "../img/MaterialSymbolsPhoneAndroid.png";
-import img5 from "../img/GameIconsAges.png";
-import img7 from "../img/email.png";
-import "./style.css";
+import img2 from "../components/assets/img/person.png";
+import img3 from "../components/assets/img/PhBriefcaseSimpleThin.png"
+import img4 from "../components/assets/img/MaterialSymbolsPhoneAndroid.png";
+import img5 from "../components/assets/img/GameIconsAges.png";
+import img7 from "../components/assets/img/email.png";
 
 export default function Registration() {
     const [data, setData] = useState({
@@ -50,7 +49,7 @@ export default function Registration() {
       };
 
   return (
-    <div className="container" style={{height:"120vh"}}>
+    <section className="container" id="registration" style={{height:"90vh"}} >
       <form onSubmit={handleSubmit} action='#' className='sign-up-form'>
       <h2 className='title'>REGISTRATION FORM</h2>
         <div className='input-field'>
@@ -89,6 +88,6 @@ export default function Registration() {
 
         <button type="submit" className='btn'>Submit</button>
       </form>
-    </div>
+    </section>
   )
 }

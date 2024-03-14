@@ -1,24 +1,24 @@
 import "./App.css";
 import React from "react";
-import Prizes from "./components/prizes/Prizes.jsx";
-import Dates from "./components/dates/Dates.jsx";
-import Registration from "./components/registration/Registration.jsx";
-import Topics from "./components/topics/Topics.jsx";
-import Footer from "./components/footer/Footer.jsx";
-import NavBar from "./components/navBar/NavBar.jsx";
-import Home from "./components/Home/Home.jsx";
+import Home from "./components/Home";
+import Topics from "./components/Topics";
+import Dates from "./components/Dates";
+import Prizes from "./components/Prizes";
+import Registration from "./components/Registration";
+import Footer from "./components/Footer";
+import { NavBar } from "./components/NavBar";
 
 function App() {
   return (
-    <>
-      <NavBar />
+    <div className="App">
+      <NavBar/>
       <Home />
-      <Topics />
+      <Topics/>
       <Dates />
       <Prizes />
       <Registration />
       <Footer />
-    </>
+      </div>
   );
 }
 

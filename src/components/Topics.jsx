@@ -1,9 +1,8 @@
 import React from 'react';
-import "./style.css";
 
 export default function Topics() {
   return (
-    <div className="container" style={{height:"70vh"}}>
+    <section className="container" id='topics' style={{height:"70vh"}}>
       <div>
       <h1 className="title">TOPICS</h1>
       </div>
@@ -16,6 +15,6 @@ export default function Topics() {
         <h4 className="separator">OR</h4>
         <h4 className="topic">4. Misconception VS proper concept of Ramayan</h4>
       </div>
-    </div>
+    </section>
   );
 }
