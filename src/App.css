@@ -67,17 +67,22 @@ select:focus {
 /* NavBar Component CSS  */
 
 nav.navbar {
-    padding: 18px 0;
+    padding: 10px 0;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 9999;
     transition: 0.32s ease-in-out;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
 }
 
 nav.navbar.scrolled {
     padding: 0px 0;
-    background-color: #121212;
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+
+.navbar-img img {
+    width: 50px;
 }
 
 nav.navbar a.navbar-brand {
@@ -86,7 +91,7 @@ nav.navbar a.navbar-brand {
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
     font-weight: 400;
-    color: #fff !important;
+    color: #000cf9;
     letter-spacing: 0.8px;
     padding: 0 25px;
     font-size: 18px;
@@ -116,7 +121,6 @@ span.navbar-text {
 .social-icon a {
     width: 42px;
     height: 42px;
-    background: rgba(217, 217, 217, 0.1);
     display: inline-flex;
     border-radius: 50%;
     margin-right: 6px;
@@ -124,6 +128,7 @@ span.navbar-text {
     justify-content: center;
     line-height: 1;
     border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: #039aff;
 }
 
 .social-icon a::before {
@@ -153,7 +158,7 @@ span.navbar-text {
 
 .navbar-text button {
     font-weight: 700;
-    color: #fff;
+    color: #000cf9;
     border: 1px solid #fff;
     padding: 18px 34px;
     font-size: 18px;
@@ -172,7 +177,7 @@ span.navbar-text {
     width: 0%;
     height: 100%;
     position: absolute;
-    background-color: #fff;
+    background-color: #4ffbdf;
     left: 0;
     top: 0;
     z-index: -1;
@@ -180,7 +185,7 @@ span.navbar-text {
 }
 
 .navbar-text button:hover {
-    color: #121212;
+    color: #c14b4b;
 }
 
 .navbar-text button:hover::before {
@@ -253,7 +258,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding-top: 60px;
+    padding-top: 90px;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
 }
 
 .essay-text {
@@ -328,7 +334,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner-img1 {
     position: absolute;
     max-width: 5%;
-    animation: updown 3s linear infinite;
+    animation: updown 5s linear;
     top: 650px;
     left: 670px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -401,9 +407,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 
-/* Other CSS */
+/* topics css */
 
-.container {
+.topics-page {
     min-width: 100%;
     text-align: center;
     justify-content: center;
@@ -414,9 +420,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
     height: 100vh;
 }
-
-
-/* topics css */
 
 .topic {
     font-size: 25px;
@@ -433,6 +436,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Dates Component CSS */
 
+.dates-page {
+    min-width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    height: 100vh;
+}
+
 .date-info {
     margin-bottom: 20px;
 }
@@ -445,6 +460,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 /* Prizes Component CSS */
+
+.prizes-page {
+    min-width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    height: 100vh;
+}
 
 .content {
     max-width: 1000px;
@@ -465,6 +492,18 @@ p:last-child {
 
 /* Registration Component CSS */
 
+.registration-page {
+    min-width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    height: 100vh;
+}
+
 h2 {
     text-align: center;
     color: #007bff;
@@ -473,7 +512,6 @@ h2 {
 .sign-up-form {
     width: 800px;
     padding: 40px;
-    /* White background */
 }
 
 .title {
@@ -524,6 +562,18 @@ h2 {
 
 /* Footer Component CSS */
 
+.footer-page {
+    min-width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    height: 100vh;
+}
+
 .Footer {
     display: flex;
     flex-direction: column;
@@ -551,7 +601,7 @@ h2 {
 
 .Footer h5 {
     text-align: left;
-    color: #7b07ff;
+    color: #39375f;
 }
 
 .ft-1 p {
@@ -596,3 +646,13 @@ h2 {
 .ft-3 i {
     padding-right: 0.5rem;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {}
+
+@media only screen and (min-width: 1200px) {}

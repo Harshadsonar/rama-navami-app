@@ -49,7 +49,7 @@ export default function Registration() {
       };
 
   return (
-    <section className="container" id="registration" style={{height:"90vh"}} >
+    <section className="registration-page" id="registration" style={{height:"90vh"}} >
       <form onSubmit={handleSubmit} action='#' className='sign-up-form'>
       <h2 className='title'>REGISTRATION FORM</h2>
         <div className='input-field'>

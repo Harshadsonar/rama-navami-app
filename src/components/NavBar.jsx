@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import WhatsAppIcon from "../components/assets/svg/whatsapp.svg";
+import MailOutlineIcon from "../components/assets/svg/gmail.svg";
 import iskcon_logo from "../components/assets/svg/iskcon_logo.svg";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router  } from "react-router-dom";
@@ -24,18 +24,19 @@ export const NavBar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const onUpdateActiveLink = (value) => {
-    setActiveLink(value);
+  const onUpdateActiveLink = (activeLink) => {
+    setActiveLink(activeLink);
   };
+
 
   return (
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand className="navbar-img" href="/">
             <img src={iskcon_logo} alt="iskcon_logo" />
           </Navbar.Brand>
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse id="basic-navbar-nav" >
             <Nav className="ms-auto">
               <Nav.Link
                 href="#home"
@@ -80,20 +81,20 @@ export const NavBar = () => {
                 }
                 onClick={() => onUpdateActiveLink("footer")}
               >
-                Footer
+                Contact Us
               </Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
                 <a
-                  href="https://www.sonarharshad02@gmail.com/"
+                  href="mailto:amanmittal08@gmail.com"
                   rel="noopener nonreferrer"
                   target="_blank"
                 >
                   <img src={MailOutlineIcon} alt="Gmail" />
                 </a>
                 <a
-                  href="https://wa.me/8237382014"
+                  href="https://chat.whatsapp.com/IItZBG5rr0G4lHCvJmYtwe"
                   rel="noopener nonreferrer"
                   target="_blank"
                 >

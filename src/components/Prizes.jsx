@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Prizes() {
   return (
-    <section className="container" id='prizes' >
+    <section className="prizes-page" id='prizes' >
       <div className="content">
         <h2 className="title">PRIZES</h2>
         <p><b>1st Prize - Rs2500/- worth Gift Pack</b></p>
