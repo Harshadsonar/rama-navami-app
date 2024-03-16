@@ -11,8 +11,8 @@ export default function Footer() {
           <div className="col-md-6 col-lg-5 col-12 ft-1">
             <img src={iskcon_logo} alt="ISKCON Logo" />
             <p>
-              ISKCON TEMPLE AND NVCC, Katraj - Kondhwa Rd, Tilekar Nagar,
-              Kondhwa Budruk, Pune, Maharashtra 411048
+              ISKCON TEMPLE NVCC, Katraj - Kondhwa Rd, Tilekar Nagar,
+              Kondhwa<br />Budruk, Pune, Maharashtra 411048
             </p>
             
           </div>
