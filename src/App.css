@@ -800,7 +800,7 @@ h2 {
         z-index: 1000;
     }
     .mobile-drawer {
-        width: 100%;
+        width: max-content;
         padding: 1.5rem;
         display: flex;
         flex-direction: column;
