@@ -14,22 +14,7 @@ export default function Footer() {
               ISKCON TEMPLE AND NVCC, Katraj - Kondhwa Rd, Tilekar Nagar,
               Kondhwa Budruk, Pune, Maharashtra 411048
             </p>
-            <div className="social-icon">
-              <a
-                href="mailto:amanmittal08@gmail.com"
-                rel="noopener nonreferrer"
-                target="_blank"
-              >
-                <img src={MailOutlineIcon} alt="Gmail" />
-              </a>
-              <a
-                href="https://chat.whatsapp.com/IItZBG5rr0G4lHCvJmYtwe"
-                rel="noopener nonreferrer"
-                target="_blank"
-              >
-                <img src={WhatsAppIcon} alt="Whatsapp" />
-              </a>
-            </div>
+            
           </div>
           <div className="col-md-6 col-lg-3 col-12 ft-2">
             <h5><b>Quick Links</b></h5>
@@ -75,6 +60,22 @@ export default function Footer() {
               <i class="fa-solid fa-paper-plane"></i>
               <a href="https://www.iskconpune.com/">ISKCON NVCC Pune</a>
             </p>
+            <div className="social-icon footer-icon">
+              <a
+                href="mailto:amanmittal08@gmail.com"
+                rel="noopener nonreferrer"
+                target="_blank"
+              >
+                <img src={MailOutlineIcon} alt="Gmail" />
+              </a>
+              <a
+                href="https://chat.whatsapp.com/IItZBG5rr0G4lHCvJmYtwe"
+                rel="noopener nonreferrer"
+                target="_blank"
+              >
+                <img src={WhatsAppIcon} alt="Whatsapp" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
