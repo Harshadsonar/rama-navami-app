@@ -5,6 +5,7 @@ import iskcon_logo from "../components/assets/svg/iskcon_logo.svg";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router  } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
+import DrawerComp from "./DrawerComp";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -108,6 +109,7 @@ export const NavBar = () => {
               </HashLink>
             </span>
           </Navbar.Collapse>
+        <DrawerComp />
         </Container>
       </Navbar>
     </Router>
