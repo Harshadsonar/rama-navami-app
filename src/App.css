@@ -67,7 +67,6 @@ select:focus {
 /* NavBar Component CSS  */
 
 nav.navbar {
-    padding: 10px 0;
     position: fixed;
     width: 100%;
     top: 0;
@@ -77,7 +76,6 @@ nav.navbar {
 }
 
 nav.navbar.scrolled {
-    padding: 0px 0;
     background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
 }
 
