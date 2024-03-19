@@ -84,7 +84,7 @@ nav.navbar.scrolled {
 }
 
 nav.navbar a.navbar-brand {
-    width: 5%;
+    width: 6%;
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -669,11 +669,15 @@ h2 {
     .title {
         font-size: 30px;
     }
+    /* NavBar CSS Component */
     nav.navbar {
         position: fixed;
         width: 100%;
         top: 0;
         z-index: 99;
+    }
+    nav.navbar a.navbar-brand {
+        width: 15%;
     }
     .essay-text {
         top: 30%;
@@ -702,8 +706,8 @@ h2 {
     .register-button {
         padding: 0.2em 1em;
         font-size: 20px;
-        top: 93%;
-        right: 20px;
+        top: 96%;
+        right: 8%;
         border-radius: 15em;
     }
     .social-icon {
@@ -714,7 +718,7 @@ h2 {
     .topics-page {
         padding: 20px;
         text-align: start;
-        height: 60vh !important;
+        height: 40vh !important;
     }
     .topic {
         font-size: 20px;
@@ -726,7 +730,7 @@ h2 {
     }
     /* dates Component CSS */
     .dates-page {
-        height: 30vh !important;
+        height: 15vh !important;
     }
     .date-info {
         margin-bottom: 10px;
@@ -739,7 +743,7 @@ h2 {
         min-width: 100%;
         text-align: center;
         justify-content: center;
-        height: 70vh !important;
+        height: 35vh !important;
     }
     .content {
         padding: 15px;
@@ -751,7 +755,7 @@ h2 {
     }
     /* registration component css  */
     .registration-page {
-        height: 70vh !important;
+        height: 45vh !important;
     }
     .sign-up-form {
         width: 95%;
@@ -811,7 +815,7 @@ h2 {
     }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 526px) {
     .title {
         font-size: 40px;
     }
@@ -821,8 +825,11 @@ h2 {
         top: 0;
         z-index: 99;
     }
+    nav.navbar a.navbar-brand {
+        width: 15%;
+    }
     .banner h1 {
-        font-size: 30px;
+        font-size: 35px;
         font-weight: 700;
         letter-spacing: 0.8px;
         line-height: 1;
@@ -830,20 +837,20 @@ h2 {
         display: block;
     }
     .banner-img1 {
-        width: 40%;
         position: absolute;
-        top: 80%;
-        left: 50%;
+        max-width: 10%;
+        top: 50%;
+        left: 90%;
         right: 50%;
         transform: translate(-50%, -50%);
     }
     .essay-text {
-        top: 30%;
+        top: 23%;
         right: 5%;
         text-shadow: -1px -1px 0 #000, 2px 2px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     }
     .festival-text {
-        top: 30%;
+        top: 34%;
         left: 5%;
         text-shadow: -1px -1px 0 #000, 2px 2px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     }
@@ -857,16 +864,17 @@ h2 {
     }
     .banner-img1 {
         position: absolute;
-        top: 80%;
-        left: 50%;
+        max-width: 15%;
+        top: 50%;
+        left: 80%;
         right: 50%;
         transform: translate(-50%, -50%);
     }
     .register-button {
         padding: 0.2em 1em;
         font-size: 20px;
-        top: 94%;
-        right: 20px;
+        top: 95%;
+        right: 8%;
         border-radius: 15em;
     }
     .social-icon {
@@ -876,7 +884,7 @@ h2 {
     .topics-page {
         padding: 20px;
         text-align: start;
-        height: 70vh !important;
+        height: 50vh !important;
     }
     .topic {
         font-size: 25px;
@@ -888,7 +896,7 @@ h2 {
     }
     /* dates Component CSS */
     .dates-page {
-        height: 35vh !important;
+        height: 30vh !important;
     }
     .date-info {
         margin-bottom: 20px;
@@ -901,7 +909,7 @@ h2 {
         min-width: 100%;
         text-align: center;
         justify-content: center;
-        height: 70vh !important;
+        height: 50vh !important;
     }
     .content {
         padding: 20px;
@@ -913,7 +921,7 @@ h2 {
     }
     /* registration component css  */
     .registration-page {
-        height: 80vh !important;
+        height: 50vh !important;
     }
     .sign-up-form {
         width: 98%;
@@ -984,6 +992,344 @@ h2 {
     }
 }
 
-@media only screen and (min-width: 768) and (max-width: 1024px) {}
+@media only screen and (min-width: 526px) and (max-width: 768px) {
+    .title {
+        font-size: 40px;
+    }
+    nav.navbar {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 99;
+    }
+    nav.navbar a.navbar-brand {
+        width: 15%;
+    }
+    .banner h1 {
+        font-size: 35px;
+        font-weight: 700;
+        letter-spacing: 0.8px;
+        line-height: 1;
+        margin-bottom: 10px;
+        display: block;
+    }
+    .banner-img1 {
+        position: absolute;
+        max-width: 10%;
+        top: 50%;
+        left: 90%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .essay-text {
+        top: 23%;
+        right: 5%;
+        text-shadow: -1px -1px 0 #000, 2px 2px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+    .festival-text {
+        top: 30%;
+        left: 5%;
+        text-shadow: -1px -1px 0 #000, 2px 2px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+    .banner h1 {
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 0.8px;
+        line-height: 1;
+        margin-bottom: 10px;
+        display: block;
+    }
+    .banner-img1 {
+        position: absolute;
+        max-width: 15%;
+        top: 50%;
+        left: 80%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .register-button {
+        padding: 0.2em 1em;
+        font-size: 20px;
+        top: 95%;
+        right: 8%;
+        border-radius: 15em;
+    }
+    .social-icon {
+        display: flex;
+    }
+    /* topics Component CSS */
+    .topics-page {
+        padding: 20px;
+        text-align: start;
+        height: 50vh !important;
+    }
+    .topic {
+        font-size: 25px;
+    }
+    .separator {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px;
+    }
+    /* dates Component CSS */
+    .dates-page {
+        height: 30vh !important;
+    }
+    .date-info {
+        margin-bottom: 20px;
+    }
+    .date {
+        font-size: 25px;
+    }
+    /* Prizes Component CSS */
+    .prizes-page {
+        min-width: 100%;
+        text-align: center;
+        justify-content: center;
+        height: 50vh !important;
+    }
+    .content {
+        padding: 20px;
+    }
+    p {
+        font-size: 25px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    /* registration component css  */
+    .registration-page {
+        height: 50vh !important;
+    }
+    .sign-up-form {
+        width: 98%;
+    }
+    .input-field input,
+    .input-field select {
+        border-radius: 20px;
+        font-size: 16px;
+    }
+    .btn {
+        border-radius: 20px;
+        font-size: 16px;
+    }
+    /* footer Component CSS */
+    .Footer {
+        height: 40vh !important;
+    }
+    .ft-1 img {
+        width: 100px;
+        margin: 30px 0;
+    }
+    .ft-1 p {
+        font-size: 20px;
+        width: 95%;
+    }
+    .Footer h5 {
+        margin-top: 30px !important;
+        text-align: center;
+        font-size: 35px;
+    }
+    .ft-2 ul li {
+        text-align: center !important;
+        padding: 0.5rem 0;
+        font-weight: 400;
+    }
+    .ft-3 p {
+        text-align: center;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .ft-3 i {
+        padding-right: 1rem;
+    }
+    .ft-3 h5 {
+        margin-bottom: 30px;
+    }
+    .social-icon a {
+        align-items: center;
+    }
+    .footer-icon {
+        gap: 40px;
+        margin: 40px;
+    }
+    .header {
+        padding: 1rem;
+    }
+    .drawer-wrapper {
+        display: block;
+        z-index: 1000;
+    }
+    .mobile-drawer {
+        width: max-content !important;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        z-index: 1000;
+    }
+}
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    nav.navbar {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 99;
+    }
+    nav.navbar a.navbar-brand {
+        width: 10%;
+    }
+    .navbar-img img {
+        width: 50%;
+    }
+    .banner h1 {
+        font-size: 55px !important;
+        font-weight: 700;
+        letter-spacing: 0.8px;
+        line-height: 1;
+        margin-bottom: 10px;
+        display: block;
+    }
+    .banner-img1 {
+        position: absolute;
+        max-width: 10%;
+        top: 50%;
+        left: 90%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .essay-text {
+        top: 25%;
+        right: 5%;
+        text-shadow: -1px -1px 0 #000, 2px 2px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+    .festival-text {
+        top: 25%;
+        left: 5%;
+        text-shadow: -1px -1px 0 #000, 2px 2px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+    .banner h1 {
+        font-size: 30px !important;
+        font-weight: 700;
+        letter-spacing: 0.8px;
+        line-height: 1;
+        margin-bottom: 10px;
+        display: block;
+    }
+    .banner-img1 {
+        position: absolute;
+        max-width: 15%;
+        top: 50%;
+        left: 80%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .register-button {
+        padding: 0.2em 0.5em;
+        font-size: 20px;
+        top: 95%;
+        right: 8%;
+        border-radius: 15em;
+    }
+    .social-icon {
+        display: flex;
+    }
+    /* topics Component CSS */
+    .topics-page {
+        padding: 20px;
+        text-align: start;
+        height: 50vh !important;
+    }
+    .topic {
+        font-size: 25px;
+    }
+    .separator {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px;
+    }
+    /* dates Component CSS */
+    .dates-page {
+        height: 30vh !important;
+    }
+    .date-info {
+        margin-bottom: 20px;
+    }
+    .date {
+        font-size: 25px;
+    }
+    /* Prizes Component CSS */
+    .prizes-page {
+        min-width: 100%;
+        text-align: center;
+        justify-content: center;
+        height: 50vh !important;
+    }
+    .content {
+        padding: 20px;
+    }
+    p {
+        font-size: 25px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    /* registration component css  */
+    .registration-page {
+        height: 50vh !important;
+    }
+    .sign-up-form {
+        width: 98%;
+    }
+    .input-field input,
+    .input-field select {
+        border-radius: 20px;
+        font-size: 16px;
+    }
+    .btn {
+        border-radius: 20px;
+        font-size: 16px;
+    }
+    /* footer Component CSS */
+    .Footer {
+        height: 40vh !important;
+    }
+    .ft-1 img {
+        width: 100px;
+        margin: 30px 0;
+    }
+    .ft-1 p {
+        font-size: 20px;
+        width: 95%;
+    }
+    .Footer h5 {
+        margin-top: 30px !important;
+        text-align: center;
+        font-size: 35px;
+    }
+    .ft-2 ul li {
+        text-align: center !important;
+        padding: 0.5rem 0;
+        font-weight: 400;
+    }
+    .ft-3 p {
+        text-align: center;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .ft-3 i {
+        padding-right: 1rem;
+    }
+    .ft-3 h5 {
+        margin-bottom: 30px;
+    }
+    .social-icon a {
+        align-items: center;
+    }
+    .footer-icon {
+        gap: 40px;
+        margin: 40px;
+    }
+    .header {
+        padding: 1rem;
+    }
+}
