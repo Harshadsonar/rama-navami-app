@@ -719,7 +719,7 @@ h2 {
     .topics-page {
         padding: 20px;
         text-align: start;
-        height: 50vh !important;
+        height: 60vh !important;
     }
     .topic {
         font-size: 20px;
@@ -744,7 +744,7 @@ h2 {
         min-width: 100%;
         text-align: center;
         justify-content: center;
-        height: 50vh !important;
+        height: 60vh !important;
     }
     .content {
         padding: 15px;
@@ -756,7 +756,7 @@ h2 {
     }
     /* registration component css  */
     .registration-page {
-        height: 60vh !important;
+        height: 70vh !important;
     }
     .sign-up-form {
         width: 95%;
@@ -771,6 +771,9 @@ h2 {
         font-size: 14px;
     }
     /* footer Component CSS */
+    .Footer {
+        height: 60vh !important;
+    }
     .footer-icons i {
         border-radius: 50px;
     }
@@ -885,7 +888,7 @@ h2 {
     .topics-page {
         padding: 20px;
         text-align: start;
-        height: 60vh !important;
+        height: 65vh !important;
     }
     .topic {
         font-size: 25px;
@@ -897,7 +900,7 @@ h2 {
     }
     /* dates Component CSS */
     .dates-page {
-        height: 40vh !important;
+        height: 60vh !important;
     }
     .date-info {
         margin-bottom: 20px;
@@ -910,7 +913,7 @@ h2 {
         min-width: 100%;
         text-align: center;
         justify-content: center;
-        height: 60vh !important;
+        height: 65vh !important;
     }
     .content {
         padding: 20px;
@@ -922,7 +925,7 @@ h2 {
     }
     /* registration component css  */
     .registration-page {
-        height: 65vh !important;
+        height: 75vh !important;
     }
     .sign-up-form {
         width: 98%;
@@ -938,7 +941,7 @@ h2 {
     }
     /* footer Component CSS */
     .Footer {
-        height: 50vh !important;
+        height: 60vh !important;
     }
     .ft-1 img {
         width: 100px;
