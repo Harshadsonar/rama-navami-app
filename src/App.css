@@ -365,7 +365,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-style: 1.2em;
     position: fixed;
     top: 85%;
-    right: 25px;
+    right: 5%;
     z-index: 1;
     cursor: pointer;
     background: none;
@@ -707,7 +707,7 @@ h2 {
     .register-button {
         padding: 0.2em 1em;
         font-size: 20px;
-        top: 96%;
+        top: 93%;
         right: 8%;
         border-radius: 15em;
     }
@@ -877,7 +877,7 @@ h2 {
     .register-button {
         padding: 0.2em 1em;
         font-size: 20px;
-        top: 95%;
+        top: 93%;
         right: 8%;
         border-radius: 15em;
     }
