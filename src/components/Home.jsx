@@ -11,7 +11,7 @@ export default function Home() {
       <div className="banner">
         <img className="banner-img2" src={img2} alt="Ram Mandir" />
         <div>
-          <img className='animate__bounceInDown banner-img1' src={img1} alt="Ram Murti" />
+          <img className='banner-img1' src={img1} alt="Ram Murti" />
         </div>
         <div className='title-text'>
           <h1 className='animate__animated animate__bounceInDown essay-text'>

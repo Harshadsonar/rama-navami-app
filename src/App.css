@@ -72,7 +72,7 @@ nav.navbar {
     top: 0;
     z-index: 9999;
     transition: 0.32s ease-in-out;
-    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    /* background-image: linear-gradient(to right, #16d9e3 0%, #30c7ec 47%, #46aef7 100%); */
 }
 
 nav.navbar.scrolled {
@@ -84,7 +84,7 @@ nav.navbar.scrolled {
 }
 
 nav.navbar a.navbar-brand {
-    width: 12%;
+    width: 5%;
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -145,7 +145,7 @@ span.navbar-text {
 }
 
 .social-icon a img {
-    width: 40%;
+    width: 50%;
     z-index: 1;
     transition: 0.3s ease-in-out;
 }
@@ -331,10 +331,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner-img1 {
     position: absolute;
-    max-width: 5%;
-    animation: updown 5s linear;
-    top: 650px;
-    left: 670px;
+    max-width: 20%;
+    animation: updown 3s linear infinite;
+    top: 30%;
+    left: 75%;
+    right: 50%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
@@ -692,8 +693,9 @@ h2 {
     }
     .banner-img1 {
         position: absolute;
-        top: 80%;
-        left: 50%;
+        max-width: 15%;
+        top: 50%;
+        left: 80%;
         right: 50%;
         transform: translate(-50%, -50%);
     }
@@ -752,7 +754,7 @@ h2 {
         height: 70vh !important;
     }
     .sign-up-form {
-        width: 450px;
+        width: 95%;
     }
     .input-field input,
     .input-field select {
