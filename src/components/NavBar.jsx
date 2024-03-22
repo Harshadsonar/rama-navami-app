@@ -52,7 +52,7 @@ export const NavBar = () => {
             </Navbar.Brand>
             {isMobileView ? (
               <div className="navbar-text">
-                <h6 style={{ fontSize: "90%" }}>International Society <br /> for Krishna Consciousness</h6>
+                <h6>International Society <br /> for Krishna Consciousness</h6>
               </div>
             ) : null}
           <Navbar.Collapse id="basic-navbar-nav" >

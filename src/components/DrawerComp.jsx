@@ -7,7 +7,8 @@ export default function DrawerComp() {
   const [flag, setFlag] = useState(false);
 
   return (
-    <div className="drawer-wrapper">
+    <div className="drawer-container">
+      <div className="drawer-wrapper">
       <IconButton onClick={() => setFlag(true)}>
         <MenuRoundedIcon className="link" />
       </IconButton>
@@ -52,6 +53,7 @@ export default function DrawerComp() {
           </div> */}
         </div>
       </Drawer>
+    </div>
     </div>
   );
 }

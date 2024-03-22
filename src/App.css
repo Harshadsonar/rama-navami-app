@@ -713,6 +713,7 @@ p {
     }
     .navbar-text {
         text-align: center;
+        font-size: 10px;
     }
     .essay-text {
         top: 30%;
@@ -842,6 +843,9 @@ p {
     .drawer-wrapper {
         display: block;
         z-index: 1000;
+        background-color: #009cfd !important;
+        border: 1px solid #000 !important;
+        border-radius: 5px;
     }
     .mobile-drawer {
         width: max-content !important;
@@ -851,9 +855,6 @@ p {
         flex-direction: column;
         gap: 2rem;
         z-index: 1000;
-    }
-    .css-1160xiw-MuiPaper-root-MuiDrawer-paper {
-        background-color: #4cff79 !important;
     }
 }
 
@@ -1023,6 +1024,9 @@ p {
     .drawer-wrapper {
         display: block;
         z-index: 1000;
+        background-color: #009cfd !important;
+        border: 1px solid #000 !important;
+        border-radius: 5px;
     }
     .mobile-drawer {
         width: max-content !important;
@@ -1032,9 +1036,6 @@ p {
         flex-direction: column;
         gap: 2rem;
         z-index: 1000;
-    }
-    .css-1160xiw-MuiPaper-root-MuiDrawer-paper {
-        background-color: #4cff79 !important;
     }
 }
 
@@ -1050,6 +1051,9 @@ p {
     }
     nav.navbar a.navbar-brand {
         width: 15%;
+    }
+    .navbar-text {
+        font-size: 25px;
     }
     .banner h1 {
         font-size: 35px;
@@ -1204,6 +1208,9 @@ p {
     .drawer-wrapper {
         display: block;
         z-index: 1000;
+        background-color: #009cfd !important;
+        border: 1px solid #000 !important;
+        border-radius: 5px;
     }
     .mobile-drawer {
         width: max-content !important;
@@ -1213,9 +1220,6 @@ p {
         flex-direction: column;
         gap: 2rem;
         z-index: 1000;
-    }
-    .css-1160xiw-MuiPaper-root-MuiDrawer-paper {
-        background-color: #4cff79 !important;
     }
 }
 
