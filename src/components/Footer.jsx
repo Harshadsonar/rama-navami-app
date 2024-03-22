@@ -50,7 +50,7 @@ export default function Footer() {
             <h5><b>Contact Us</b></h5>
             <p>
               <i class="fa-solid fa-phone-volume"></i>
-              <a href="tel:+91 7017697871">+91 7017697871</a>
+              <a href="tel:+91 8308819263">+91 8308819263</a>
             </p>
             <p>
               <i class="fa-solid fa-envelope"></i>
@@ -58,9 +58,10 @@ export default function Footer() {
             </p>
             <p>
               <i class="fa-solid fa-paper-plane"></i>
-              <a href="https://www.iskconpune.com/">ISKCON NVCC Pune</a>
+              <a href="https://www.iskconpune.com/" rel="noopener nonreferrer"
+                target="_blank">ISKCON NVCC Pune</a>
             </p>
-            <div className="social-icon footer-icon">
+            {/* <div className="social-icon footer-icon">
               <a
                 href="mailto:amanmittal08@gmail.com"
                 rel="noopener nonreferrer"
@@ -75,7 +76,7 @@ export default function Footer() {
               >
                 <img src={WhatsAppIcon} alt="Whatsapp" />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

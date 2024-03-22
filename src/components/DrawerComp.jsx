@@ -33,7 +33,7 @@ export default function DrawerComp() {
           <a href="#footer">
             <p className="link">Contact Us</p>
           </a>
-          <div className="social-icon">
+          {/* <div className="social-icon">
             <a
               href="mailto:amanmittal08@gmail.com"
               rel="noopener nonreferrer"
@@ -48,7 +48,7 @@ export default function DrawerComp() {
             >
               <img src={WhatsAppIcon} alt="Whatsapp" />
             </a>
-          </div>
+          </div> */}
         </div>
       </Drawer>
     </div>

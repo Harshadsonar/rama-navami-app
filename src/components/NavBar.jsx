@@ -10,6 +10,7 @@ import DrawerComp from "./DrawerComp";
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
+  const [isMobileView, setIsMobileView] = useState(false);
 
   useEffect(() => {
     const onScroll = () => {
@@ -20,9 +21,20 @@ export const NavBar = () => {
       }
     };
 
-    window.addEventListener("scroll", onScroll);
+    const handleResize = () => {
+      setIsMobileView(window.innerWidth <= 768); // Adjust this value according to your breakpoints
+    };
 
-    return () => window.removeEventListener("scroll", onScroll);
+    window.addEventListener("scroll", onScroll);
+    window.addEventListener("resize", handleResize);
+
+    // Initial check for mobile view on component mount
+    handleResize();
+
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
   const onUpdateActiveLink = (activeLink) => {
@@ -34,9 +46,20 @@ export const NavBar = () => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
+        {isMobileView ? (
           <Navbar.Brand className="navbar-img" href="/">
+          <div className="navbar-logo">
             <img src={iskcon_logo} alt="iskcon_logo" />
-          </Navbar.Brand>
+          </div>
+          <div className="navbar-text">
+          <h6 style={{fontSize:"10px"}}>International Society <br /> for Krishna Consciousness</h6>
+          </div>
+            </Navbar.Brand>
+          ) : (
+            <Navbar.Brand className="navbar-img" href="/">
+              <img src={iskcon_logo} alt="iskcon_logo" />
+            </Navbar.Brand>
+          )}
           <Navbar.Collapse id="basic-navbar-nav" >
             <Nav className="ms-auto">
               <Nav.Link

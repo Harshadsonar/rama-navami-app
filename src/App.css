@@ -559,6 +559,33 @@ h2 {
     color: #f80000;
 }
 
+.popup h3,
+p {
+    color: #000000;
+}
+
+.popup button {
+    width: 20%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #26fc00;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.popup button:hover {
+    background-color: #f83535;
+    color: #fafafa;
+}
+
+.submit-icon {
+    position: block;
+    justify-content: center;
+}
+
 
 /* Footer Component CSS */
 
@@ -680,6 +707,9 @@ h2 {
     nav.navbar a.navbar-brand {
         width: 15%;
     }
+    .navbar-text {
+        text-align: center;
+    }
     .essay-text {
         top: 30%;
         text-shadow: -1px -1px 0 #000, 2px 2px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -731,7 +761,7 @@ h2 {
     }
     /* dates Component CSS */
     .dates-page {
-        height: 30vh !important;
+        height: 40vh !important;
     }
     .date-info {
         margin-bottom: 10px;
@@ -756,7 +786,7 @@ h2 {
     }
     /* registration component css  */
     .registration-page {
-        height: 70vh !important;
+        height: 100vh !important;
     }
     .sign-up-form {
         width: 95%;
