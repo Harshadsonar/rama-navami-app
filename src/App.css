@@ -853,7 +853,7 @@ p {
         z-index: 1000;
     }
     .css-1160xiw-MuiPaper-root-MuiDrawer-paper {
-        background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+        background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%) !important;
     }
 }
 
@@ -1034,7 +1034,7 @@ p {
         z-index: 1000;
     }
     .css-1160xiw-MuiPaper-root-MuiDrawer-paper {
-        background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+        background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%) !important;
     }
 }
 
@@ -1215,7 +1215,7 @@ p {
         z-index: 1000;
     }
     .css-1160xiw-MuiPaper-root-MuiDrawer-paper {
-        background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+        background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%) !important;
     }
 }
 
