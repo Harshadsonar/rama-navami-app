@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Topics() {
   return (
-    <section className="topics-page" id='topics' style={{height:"70vh"}}>
+    <section className="topics-page" id='topics'>
       <div>
       <h1 className="title">TOPICS</h1>
       </div>

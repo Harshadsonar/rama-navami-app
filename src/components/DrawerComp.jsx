@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import Drawer from "@mui/material/Drawer";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import { IconButton } from "@mui/material";
-import WhatsAppIcon from "../components/assets/svg/whatsapp.svg";
-import MailOutlineIcon from "../components/assets/svg/gmail.svg";
 
 export default function DrawerComp() {
   const [flag, setFlag] = useState(false);
@@ -15,6 +13,9 @@ export default function DrawerComp() {
       </IconButton>
       <Drawer anchor={"right"} open={flag} onClose={() => setFlag(false)}>
         <div className="mobile-drawer">
+        <IconButton onClick={() => setFlag(false)}>
+        <MenuRoundedIcon className="link" />
+      </IconButton>
           <a href="#home">
             <p className="link">Home</p>
           </a>
@@ -24,11 +25,11 @@ export default function DrawerComp() {
           <a href="#dates">
             <p className="link">Dates</p>
           </a>
-          <a href="#registration">
-            <p className="link">Register</p>
-          </a>
           <a href="#prizes">
             <p className="link">Prizes</p>
+          </a>
+          <a href="#registration">
+            <p className="link">Register</p>
           </a>
           <a href="#footer">
             <p className="link">Contact Us</p>

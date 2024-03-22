@@ -1,5 +1,4 @@
 import iskcon_logo from "../components/assets/svg/iskcon_logo.svg";
-import WhatsAppIcon from "../components/assets/svg/whatsapp.svg";
 import MailOutlineIcon from "../components/assets/svg/gmail.svg";
 import React from "react";
 
@@ -61,22 +60,7 @@ export default function Footer() {
               <a href="https://www.iskconpune.com/" rel="noopener nonreferrer"
                 target="_blank">ISKCON NVCC Pune</a>
             </p>
-            {/* <div className="social-icon footer-icon">
-              <a
-                href="mailto:amanmittal08@gmail.com"
-                rel="noopener nonreferrer"
-                target="_blank"
-              >
-                <img src={MailOutlineIcon} alt="Gmail" />
-              </a>
-              <a
-                href="https://chat.whatsapp.com/IItZBG5rr0G4lHCvJmYtwe"
-                rel="noopener nonreferrer"
-                target="_blank"
-              >
-                <img src={WhatsAppIcon} alt="Whatsapp" />
-              </a>
-            </div> */}
+            
           </div>
         </div>
       </div>

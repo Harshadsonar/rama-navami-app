@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import WhatsAppIcon from "../components/assets/svg/whatsapp.svg";
 import MailOutlineIcon from "../components/assets/svg/gmail.svg";
 import iskcon_logo from "../components/assets/svg/iskcon_logo.svg";
 import { HashLink } from "react-router-hash-link";
@@ -46,20 +45,16 @@ export const NavBar = () => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-        {isMobileView ? (
           <Navbar.Brand className="navbar-img" href="/">
           <div className="navbar-logo">
             <img src={iskcon_logo} alt="iskcon_logo" />
           </div>
-          <div className="navbar-text">
-          <h6 style={{fontSize:"10px"}}>International Society <br /> for Krishna Consciousness</h6>
-          </div>
             </Navbar.Brand>
-          ) : (
-            <Navbar.Brand className="navbar-img" href="/">
-              <img src={iskcon_logo} alt="iskcon_logo" />
-            </Navbar.Brand>
-          )}
+            {isMobileView ? (
+              <div className="navbar-text">
+                <h6 style={{ fontSize: "90%" }}>International Society <br /> for Krishna Consciousness</h6>
+              </div>
+            ) : null}
           <Navbar.Collapse id="basic-navbar-nav" >
             <Nav className="ms-auto">
               <Nav.Link
@@ -116,13 +111,6 @@ export const NavBar = () => {
                   target="_blank"
                 >
                   <img src={MailOutlineIcon} alt="Gmail" />
-                </a>
-                <a
-                  href="https://chat.whatsapp.com/IItZBG5rr0G4lHCvJmYtwe"
-                  rel="noopener nonreferrer"
-                  target="_blank"
-                >
-                  <img src={WhatsAppIcon} alt="Whatsapp" />
                 </a>
               </div>
               <HashLink to="#registration">
