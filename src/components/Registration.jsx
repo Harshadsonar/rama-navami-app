@@ -79,6 +79,8 @@ export default function Registration() {
             value={name}
             onChange={handleChange}
             placeholder="Your Full Name"
+            autoComplete="on"
+            autoSave="on"
             required
           />
         </div>
@@ -89,6 +91,8 @@ export default function Registration() {
             name="profession"
             value={profession}
             onChange={handleChange}
+            autoComplete="on"
+            autoSave="on"
             required
           >
             <option value="">Select your Profession</option>
@@ -104,18 +108,22 @@ export default function Registration() {
             name="college"
             value={college}
             onChange={handleChange}
+            autoComplete="on"
+            autoSave="on"
             placeholder="Organization Name"
             required
           />
         </div>
 
         <div className="input-field">
-          <img src={img5} alt="" />
+          <img src={img5} alt=""/>
           <input
             type="number"
             name="age"
             value={age}
             onChange={handleChange}
+            autoComplete="on"
+            autoSave="on"
             placeholder="Age"
             required
           />
@@ -127,6 +135,8 @@ export default function Registration() {
             type="tel"
             value={mobileNumber}
             onChange={handleChange}
+            autoComplete="on"
+            autoSave="on"
             name="mobileNumber"
             pattern="[0-9]{10}"
             placeholder="Phone Number"
@@ -140,6 +150,8 @@ export default function Registration() {
             type="email"
             value={email}
             onChange={handleChange}
+            autoComplete="on"
+            autoSave="on"
             name="email"
             placeholder="Email Address"
             required
