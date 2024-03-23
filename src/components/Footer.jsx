@@ -53,7 +53,7 @@ export default function Footer() {
             </p>
             <p>
               <i class="fa-solid fa-envelope"></i>
-              <a href="mailto:amanmittal08@gmail.com">amanmittal08@gmail.com</a>
+              <a href="mailto:essayonram@gmail.com">essayonram@gmail.com</a>
             </p>
             <p>
               <i class="fa-solid fa-paper-plane"></i>
